@@ -13,7 +13,7 @@ const Navbar = () => {
       </Link>
       <ul className="hidden gap-5 text-sm text-gray-700 sm:flex">
         <NavLink
-          to="salmanulfarisvnb/"
+          to="e-commerce-Website"
           className="flex flex-col items-center gap-1"
         >
           <p>Home</p>
