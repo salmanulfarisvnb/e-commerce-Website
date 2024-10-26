@@ -9,6 +9,7 @@ import NewsLetterBox from "./NewsLetterBox";
 import Footer from "./Footer";
 import SearchBar from "./SearchBar";
 import ButtonBase from "./ButtonBase";
+import RelatedProduct from "./RealatedProduct";
 
 export {
   Navbar,
@@ -22,4 +23,5 @@ export {
   Footer,
   SearchBar,
   ButtonBase,
+  RelatedProduct,
 };

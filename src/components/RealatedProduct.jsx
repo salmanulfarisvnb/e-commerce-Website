@@ -9,8 +9,9 @@ const RealatedProduct = ({ category, subCategory }) => {
     if (products.length > 0) {
       let productCopy = products.filter((item) => category === item.category);
       productCopy = products.filter((item) => subCategory === item.category);
+      console.log(productCopy);
     }
-  }, []);
+  }, [products]);
   return <div>RealatedProduct</div>;
 };
 
