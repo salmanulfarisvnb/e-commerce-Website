@@ -94,7 +94,7 @@ const Collection = () => {
         </p>
         {/* Catogory Filter */}
 
-        <div className={`${showFilter ? " " : " max-sm:hidden"}`}>
+        <div className={`${showFilter ? "hemsue " : " max-sm:hidden"}`}>
           <div className="py-3 pl-5 mt-6 border border-gray-300">
             <p className="mb-3 text-sm font-medium ">CATEGORIES</p>
             <div className="flex flex-col gap-2 text-sm font-light to-gray-700">

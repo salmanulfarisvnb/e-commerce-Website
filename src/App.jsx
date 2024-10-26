@@ -20,8 +20,8 @@ const App = () => {
       <Navbar />
       <SearchBar />
       <Routes>
-        <Route path="e-commerce-Website" element={<Home />} />
-        <Route path="product/:productId" element={<Product />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/product/:productId" element={<Product />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/collection" element={<Collection />} />
         <Route path="/contact" element={<Contact />} />
