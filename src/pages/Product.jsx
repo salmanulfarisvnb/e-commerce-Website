@@ -7,7 +7,7 @@ import { RelatedProduct } from "../components";
 
 const Product = () => {
   const { productId } = useParams();
-  const { products, currency } = useContext(shopContext);
+  const { products, currency, addToCart } = useContext(shopContext);
   const [productData, setProductData] = useState(false);
   const [image, setImage] = useState("");
   const [size, setSize] = useState("");
@@ -16,7 +16,7 @@ const Product = () => {
     products.map((item) => {
       if (item._id === productId) {
         setProductData(item);
-        setImage(productData.image[0]);
+        setImage(productData.image);
 
         return null;
       }
@@ -85,7 +85,9 @@ const Product = () => {
               ))}
             </div>
           </div>
-          <ButtonBase text="ADD TO CART" />
+          <div onClick={() => addToCart(productData._id, size)}>
+            <ButtonBase text="ADD TO CART" />
+          </div>
           <hr className="w-4/5 mt-8" />
           <div className="py-8 text-sm text-gray-500">
             <p>100% Original Product</p>
