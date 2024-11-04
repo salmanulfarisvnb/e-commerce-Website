@@ -10,6 +10,7 @@ import Footer from "./Footer";
 import SearchBar from "./SearchBar";
 import ButtonBase from "./ButtonBase";
 import RelatedProduct from "./RealatedProduct";
+import CartTotal from "./CartTotal";
 
 export {
   Navbar,
@@ -24,4 +25,5 @@ export {
   SearchBar,
   ButtonBase,
   RelatedProduct,
+  CartTotal,
 };

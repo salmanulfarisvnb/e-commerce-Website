@@ -13,10 +13,10 @@ const Product = () => {
   const [size, setSize] = useState("");
 
   const fethProductData = async () => {
-    products.map((item) => {
+    await products.map((item) => {
       if (item._id === productId) {
         setProductData(item);
-        setImage(productData.image);
+        setImage(item.image);
 
         return null;
       }
