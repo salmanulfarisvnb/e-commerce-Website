@@ -6,7 +6,7 @@ const CartTotal = () => {
   const { getCartAmount, delivery_fee, currency } = useContext(shopContext);
 
   return (
-    <div className="w-full text-2xl ">
+    <div className="w-full text-xl sm:text-2xl ">
       <Title text1={"CART "} text2={"TOTAL"} />
       <div className="flex flex-col gap-2 mt-3">
         <div className="flex justify-between text-base">
