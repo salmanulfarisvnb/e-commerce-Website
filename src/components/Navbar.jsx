@@ -39,7 +39,10 @@ const Navbar = () => {
         />
 
         <div className="relative group">
-          <img className="w-5" src={assets.profile_icon} alt="" />
+          <Link to={"/login"}>
+            <img className="w-5" src={assets.profile_icon} alt="" />
+          </Link>
+
           <div className="absolute right-0 hidden pt-4 dropdown-menu group-hover:block">
             <div className="flex flex-col gap-2 px-5 py-3 text-gray-500 rounded w-36 bg-slate-100">
               <p className="cursor-pointer hover:text-black">My Profile</p>

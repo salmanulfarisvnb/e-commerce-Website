@@ -29,3 +29,7 @@ a.active hr {
 ::-webkit-scrollbar {
   display: none;
 }
+
+.flexItem {
+  width: clamp(420px 8vw 450px);
+}
