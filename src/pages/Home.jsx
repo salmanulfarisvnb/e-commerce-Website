@@ -1,4 +1,3 @@
-import React from "react";
 import {
   BestSeller,
   Hero,
@@ -10,6 +9,7 @@ import {
 const Home = () => {
   return (
     <div>
+      <div></div>
       <Hero />
       <LatestCollection />
       <BestSeller />
