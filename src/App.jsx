@@ -24,7 +24,7 @@ const App = () => {
       <Navbar />
       <SearchBar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/salmanulfarisvnb" element={<Home />} />
         <Route path="/product/:productId" element={<Product />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/collection" element={<Collection />} />
