@@ -1,6 +1,7 @@
 import React from "react";
 import Title from "../components/Title";
 import { assets } from "../assets/frontend_assets/assets";
+import NewsLetterBox from "../components/NewsLetterBox";
 const Abuot = () => {
   return (
     <div className="border-t ">
@@ -62,6 +63,9 @@ const Abuot = () => {
             stringent quality standards.
           </p>
         </div>
+      </div>
+      <div className="mt-16 ">
+        <NewsLetterBox />
       </div>
     </div>
   );
